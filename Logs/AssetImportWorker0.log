@@ -1,0 +1,464 @@
+Unity Editor version:    6000.4.0f1 (8cf496087c8f)
+Branch:                  6000.4/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 26.0 (Build 25A354)
+Darwin version:          25.0.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Date:                    2026-03-26T06:50:40Z
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-lucasoliveira" at "2026-03-26T06:50:40.745214Z"
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Volumes/WD_2TB/lu_studios/unity_test
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54707
+-licensingIpc
+LicenseClient-lucasoliveira
+-force-metal
+-job-worker-count
+4
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name AssetImport
+Successfully changed project path to: /Volumes/WD_2TB/lu_studios/unity_test
+/Volumes/WD_2TB/lu_studios/unity_test
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [8644691968]  Target information:
+
+Player connection [8644691968]  * "[IP] 192.168.1.11 [Port] 0 [Flags] 2 [Guid] 1192522033 [EditorId] 1192522033 [Version] 1048832 [Id] OSXEditor(0,MAC-9B6FEC.station) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8644691968]  * "[IP] 169.254.36.117 [Port] 0 [Flags] 2 [Guid] 1192522033 [EditorId] 1192522033 [Version] 1048832 [Id] OSXEditor(0,MAC-9B6FEC.station) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8644691968] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8644691968] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 4
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.4.0f1 (8cf496087c8f)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Volumes/WD_2TB/lu_studios/unity_test/Assets
+Forcing GfxDevice: Metal
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+ preferred device: Apple M2 Pro (high power)
+Metal devices available: 1
+0: Apple M2 Pro (high power)
+Using device Apple M2 Pro (high power)
+Initializing Metal device caps: Apple M2 Pro
+Mac GPU Family: 2
+Apple GPU Family: 8
+MSL Version: 3.0
+Has Float MSAA: 1
+Has Float Filtering: 1
+ReadWrite Texture Tier: 2
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-lucasoliveira"
+[Licensing::IpcConnector] LicenseClient-lucasoliveira channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-lucasoliveira-6000.4.0" at "2026-03-26T06:50:40.994634Z"
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/Resources/Scripting/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56576
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              4f97abaf72bf467988db37fe1ef6cdb6
+  Correlation Id:          2f33288c7aac2394854e565106331bbb
+  External correlation Id: 7811166138873390201
+  Machine Id:              4dG5Mb3GXXN8189ff+cOxhN61nI=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-lucasoliveira-6000.4.0" (connect: 0.00s, validation: 0.00s, handshake: 0.22s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-lucasoliveira-6000.4.0-notifications" at "2026-03-26T06:50:41.22014Z"
+[Licensing::Module] Licensing Background thread has ended after 0.47s
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/6000.4.0f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001747 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.252 seconds
+Domain Reload Profiling: 546ms
+	BeginReloadAssembly (72ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (150ms)
+		LoadAssemblies (72ms)
+		AnalyzeDomain (143ms)
+			TypeCache.Refresh (141ms)
+				TypeCache.ScanAssembly (129ms)
+	FinalizeReload (253ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (68ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+[CoreBusinessMetrics] Unexpected thread when updating session info.
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 2901277-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp.dll at Library/ScriptAssemblies/Assembly-CSharp.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.210 seconds
+Domain Reload Profiling: 368ms
+	BeginReloadAssembly (79ms)
+		DisableScriptedObjects (3ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (19ms)
+		LoadAssemblies (39ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (7ms)
+	FinalizeReload (211ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (47ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+Launching external process: /Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (24.7 KB). Loaded Objects now: 663.
+Memory consumption went from 70.4 MB to 70.4 MB.
+Total: 3.427292 ms (FindLiveObjects: 0.023958 ms CreateObjectMapping: 0.013000 ms MarkObjects: 3.330459 ms  DeleteObjects: 0.059291 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 7843.084321 seconds.
+  path: Assets/Settings/DefaultVolumeProfile.asset
+  importAddress: Guid(06f0f140cc941438294003de00992597) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Settings/DefaultVolumeProfile.asset using Guid(06f0f140cc941438294003de00992597) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '57e146afdea5696eb09a05231ed25581') in 0.038289625 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=875b94d580b712ad6e082b81541e593a DependenciesID=7d3d1a929752661471ffae370900ab45 StaticDependenciesID=ac4b5f42651746897841dcbf13dbe62a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x16daf3000 may have been prematurely finalized
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp.dll at Library/ScriptAssemblies/Assembly-CSharp.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.207 seconds
+Domain Reload Profiling: 357ms
+	BeginReloadAssembly (85ms)
+		DisableScriptedObjects (3ms)
+		CreateAndSetChildDomain (13ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (13ms)
+		LoadAssemblies (42ms)
+		AnalyzeDomain (6ms)
+			TypeCache.Refresh (3ms)
+	FinalizeReload (208ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (49ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (1.0 KB). Loaded Objects now: 665.
+Memory consumption went from 77.5 MB to 77.5 MB.
+Total: 3.406125 ms (FindLiveObjects: 0.023667 ms CreateObjectMapping: 0.006750 ms MarkObjects: 3.357500 ms  DeleteObjects: 0.017791 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 523.927506 seconds.
+  path: Assets/Settings/DefaultVolumeProfile.asset
+  importAddress: Guid(06f0f140cc941438294003de00992597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/DefaultVolumeProfile.asset using Guid(06f0f140cc941438294003de00992597) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '16da07212dd2049feb5f76143812a327') in 0.002482667 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=efd154782e605acc9471e7fa5d053c4c DependenciesID=a8a6b251251eaa86fd884c10d0e308de StaticDependenciesID=52fcc96a78e03dc7eebb5910b2bd8754 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.319186 seconds.
+  path: Assets/Settings
+  importAddress: Guid(28ea330eabd524fc2b7904837a09bb11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings using Guid(28ea330eabd524fc2b7904837a09bb11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '9815ee30bf907700fad14adcbe33ca6a') in 0.000491292 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=32d6b3460fd278190e605a414c7118db DependenciesID=0f8b3281c19e654237ffd2f43e36011e StaticDependenciesID=a29f270bee4c17dfe5b2fff0d0748bba 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.762355 seconds.
+  path: Assets/Scenes
+  importAddress: Guid(3efd46deb1c09449ca3f2e0b1d0d1e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(3efd46deb1c09449ca3f2e0b1d0d1e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'e8d2df4d747af7d6975a9223510da3e5') in 0.000808666 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b5f677b0e51e0914a68b22203f05977b DependenciesID=580fabe965338a09ffb9bca935542f76 StaticDependenciesID=155b2970934a359f17c7f46d7cb9dfca 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 79.091288 seconds.
+  path: Assets/Scenes
+  importAddress: Guid(3efd46deb1c09449ca3f2e0b1d0d1e1e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes using Guid(3efd46deb1c09449ca3f2e0b1d0d1e1e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd3b8c703bfa1f4c14f9370404924022f') in 0.060738667 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3a01d4962a96910dc5cd7f87fa75a1c2 DependenciesID=1e0929bb96b47285f447f2671e775011 StaticDependenciesID=b6921342b4481275a755029147bae8f1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.107905 seconds.
+  path: Assets/Color1.mat
+  importAddress: Guid(4bd78f67ceea84a069f2d1fc4d78c27f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Color1.mat using Guid(4bd78f67ceea84a069f2d1fc4d78c27f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '81694a405ecee9fe1e19ac96484f74b1') in 0.418875167 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=95826ac208ef470139a9ff72a5e992d2 DependenciesID=ade5f0c97eee4d7f386024e164bf22c6 StaticDependenciesID=d164578f42e7f007b9a727c73ee3cd6a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.573429 seconds.
+  path: Assets/Color1.mat
+  importAddress: Guid(4bd78f67ceea84a069f2d1fc4d78c27f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Color1.mat using Guid(4bd78f67ceea84a069f2d1fc4d78c27f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4a69c8033f3ea78cde502f8b999c9e22') in 0.026029667 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fff3527ee6893b18e92d6b8f480e9f59 DependenciesID=be99979d5016d745aebb5bf937d7b0e4 StaticDependenciesID=bb2fbf6b81025fbf1a744730f3f148e6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.698286 seconds.
+  path: Assets/Colour1.mat
+  importAddress: Guid(4bd78f67ceea84a069f2d1fc4d78c27f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colour1.mat using Guid(4bd78f67ceea84a069f2d1fc4d78c27f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'dce55f75bbd5081d26cbd0b165db88c8') in 0.006322291 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=95826ac208ef470139a9ff72a5e992d2 DependenciesID=64fb89567fbf3053a385a6d5e04ad7b9 StaticDependenciesID=34eee67f71d6365953423764ec92b4f8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.988282 seconds.
+  path: Assets/Colour1.mat
+  importAddress: Guid(4bd78f67ceea84a069f2d1fc4d78c27f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Colour1.mat using Guid(4bd78f67ceea84a069f2d1fc4d78c27f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f6e254a454c4dcf7694031915f9d02f0') in 0.0119285 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5013fbf3187a3f0b07e707e0e24f49d6 DependenciesID=8a8ea70b4d182ad953dff444e880ca06 StaticDependenciesID=e9dee1de26e0709152a56fdae8b22f3e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 633.567875 seconds.
+  path: Assets/New Material.mat
+  importAddress: Guid(c4b3a8ff2bf634b0ea04605d9c5451d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Material.mat using Guid(c4b3a8ff2bf634b0ea04605d9c5451d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '9a56d6aca81af3d847989cf34e9af707') in 0.009059625 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=64372cc10f7bd487625ff28b0bc0eafb DependenciesID=f8f7d2aba242a15c359bfed46a66a92d StaticDependenciesID=ad422e5b0450e8ca45f43347d7285150 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.042507 seconds.
+  path: Assets/New Material.mat
+  importAddress: Guid(c4b3a8ff2bf634b0ea04605d9c5451d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/New Material.mat using Guid(c4b3a8ff2bf634b0ea04605d9c5451d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ea51da73d04d63993713eff63242ff5e') in 0.007199042 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=33601df28029fa28b19d9591e9a8259f DependenciesID=0f5b0ad04a034a9976233a71b8c28ec1 StaticDependenciesID=24f1a74ebe4189afaf84954f1d059c60 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 306.041256 seconds.
+  path: Assets/New Material 1.mat
+  importAddress: Guid(aba6c837137db484794772000dc56212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Material 1.mat using Guid(aba6c837137db484794772000dc56212) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '11133737dd63ef782b589eaa1ddd3f92') in 0.007425167 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=22efa37b4e1af283611383564f464cad DependenciesID=6ac0968f848ae0d733fd573dde30f7ff StaticDependenciesID=15e8aa518b8807676bd8c6d759f6a1a7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.983497 seconds.
+  path: Assets/New Material 1.mat
+  importAddress: Guid(aba6c837137db484794772000dc56212) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/New Material 1.mat using Guid(aba6c837137db484794772000dc56212) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '751b39ae61e43238bd56bc7afad2bfbb') in 0.010493583 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=be13db3e41ff4543a4f0fe6c85802e8e DependenciesID=520424fdaf247c2e9adcaf14e6a3ce10 StaticDependenciesID=0ed8ec65bd4805d14a6510ab395877f3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 311.782228 seconds.
+  path: Assets/Materials
+  importAddress: Guid(5bcff06899eb24bb0a18ad2dcfbe5056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(5bcff06899eb24bb0a18ad2dcfbe5056) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '60d9ea3b4a394d371abaab963c19de49') in 0.000281833 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=97f8a27e3b879e94cef0f82a416ee355 DependenciesID=a1fdd7ee3cde1c063702ce43d93cc8af StaticDependenciesID=0460ffb740ec3a361924b6ac604f39f8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.992902 seconds.
+  path: Assets/Materials
+  importAddress: Guid(5bcff06899eb24bb0a18ad2dcfbe5056) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Materials using Guid(5bcff06899eb24bb0a18ad2dcfbe5056) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e1ebad796868cdd83eaa3279b6e07230') in 0.007224542 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8d9ed091c508322a9172dc0e76b58d44 DependenciesID=c3b3133cac852da66c431a09f7be8369 StaticDependenciesID=20ed066fd4cc16d62f827c97de598d4a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.463942 seconds.
+  path: Assets/Materials/Colour1.mat
+  importAddress: Guid(4bd78f67ceea84a069f2d1fc4d78c27f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Materials/Colour1.mat using Guid(4bd78f67ceea84a069f2d1fc4d78c27f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e9234e2337f8e2fcc353c86c4b5497a2') in 0.007183708 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=aa0d1ef68aa054a964cd76ad82e57b14 DependenciesID=9596a2ac4fdd9c4ae381a91234307ae5 StaticDependenciesID=cff6259ca4ce06f0a10abda7657da32e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Materials/New Material.mat
+  importAddress: Guid(c4b3a8ff2bf634b0ea04605d9c5451d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Materials/New Material.mat using Guid(c4b3a8ff2bf634b0ea04605d9c5451d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '11dac97453ce6d82ae3ed819e172fff7') in 0.006774125 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5540b21f36c494510fe8e8c1a73450d2 DependenciesID=5061f7c2d6a37a3e93d7dd1f82c5de00 StaticDependenciesID=eb6c6a2791a9a2558268c66480d5b73f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.864353 seconds.
+  path: Assets/Scripts
+  importAddress: Guid(1846bd82bf2c44cce83704ba7b39f856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(1846bd82bf2c44cce83704ba7b39f856) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '320be8d25840fda068eccc9ecda9043c') in 0.000248291 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=841efa78cde2cd15748d3ec9b04b8198 DependenciesID=1f4569aef6bccd5a04e9b6ca23a50c60 StaticDependenciesID=fba22afe09be2097e9628b56454154b2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.994028 seconds.
+  path: Assets/Scripts
+  importAddress: Guid(1846bd82bf2c44cce83704ba7b39f856) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts using Guid(1846bd82bf2c44cce83704ba7b39f856) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ddbd9e155aa35dd98330cd3d5e85c75c') in 0.005366959 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c841f25838196d7505a278094cdbfbcb DependenciesID=f2392169bae558b2ccd97cfe86b6e762 StaticDependenciesID=87676b9eb4fd8de24da4c56ad4aff39a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (1.0 KB). Loaded Objects now: 709.
+Memory consumption went from 79.7 MB to 79.7 MB.
+Total: 9.102583 ms (FindLiveObjects: 0.089208 ms CreateObjectMapping: 0.004542 ms MarkObjects: 8.991209 ms  DeleteObjects: 0.017458 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 12.967570 seconds.
+  path: Assets/Scripts/TestDeleteMe.cs
+  importAddress: Guid(bdbca209d4db14f55ac66d8073cd1faf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/TestDeleteMe.cs using Guid(bdbca209d4db14f55ac66d8073cd1faf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd5ef22b465926d9d5b8973d07372f01e') in 0.024821792 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=361d79deb7f499582f5c0fbde7b9a12f DependenciesID=e613d7f38eef3b2809de7382da276211 StaticDependenciesID=6c3bed95df5e20214726fc763dfe7818 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x16c1c7000 may have been prematurely finalized
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.213 seconds
+Domain Reload Profiling: 384ms
+	BeginReloadAssembly (95ms)
+		DisableScriptedObjects (3ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (16ms)
+		LoadAssemblies (49ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (4ms)
+	FinalizeReload (214ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (51ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (1.0 KB). Loaded Objects now: 708.
+Memory consumption went from 85.3 MB to 85.3 MB.
+Total: 3.257917 ms (FindLiveObjects: 0.023167 ms CreateObjectMapping: 0.004416 ms MarkObjects: 3.212000 ms  DeleteObjects: 0.017750 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.991380 seconds.
+  path: Assets/Scripts/TestDeleteMe.cs
+  importAddress: Guid(bdbca209d4db14f55ac66d8073cd1faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TestDeleteMe.cs using Guid(bdbca209d4db14f55ac66d8073cd1faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'd421d73a123646ebfeadff0d42d3a702') in 0.000627042 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=47d31e03dfd3395a3efaed1328b9d874 DependenciesID=ba868546fc8b2d3f0f587ace481e7b6b StaticDependenciesID=9d88278a4a67f4058b30934acfb0a18c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
